@@ -19,7 +19,7 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="https://provocations.darkmatterlabs.org/"
+            href="https://substack.com/@darkmatterlabs"
             className="text-[#A8A8A8] hover:text-[#EBEBEB] transition-colors"
           >
             Substack
