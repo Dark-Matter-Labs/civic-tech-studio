@@ -1,26 +1,60 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --black: #111112;
+  --dark-gray: #161618;
+  --gray-1: #ebebeb;
+  --gray-2: #1d1d1f;
+  --gray-3: #a8a8a8;
+  --gray-4: #707070;
+  --gray-5: #595959;
+  --gray-6: #353535;
+  --yellow: #fcd02c;
+  --border: rgba(53, 53, 53, 0.5);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-dm-black: #111112;
+  --color-dm-dark-gray: #161618;
+  --color-dm-gray-1: #ebebeb;
+  --color-dm-gray-2: #1d1d1f;
+  --color-dm-gray-3: #a8a8a8;
+  --color-dm-gray-6: #353535;
+  --color-dm-yellow: #fcd02c;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply bg-dm-black text-dm-gray-1;
+  }
+
+  h1 {
+    @apply text-5xl md:text-7xl lg:text-8xl font-light tracking-tight;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-light tracking-tight;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl font-normal;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-5;
+  }
+
+  .section-padding {
+    @apply py-24 md:py-32 lg:py-40;
+  }
+
+  .border-gray {
+    @apply border-dm-gray-6;
+  }
 }
