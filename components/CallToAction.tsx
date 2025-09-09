@@ -26,7 +26,7 @@ export default function CallToAction() {
           viewport={{ once: true }}
           className="text-xl text-dm-gray-3 mb-8 md:mb-10 max-w-3xl mx-auto"
         >
-          We're looking for partners, funders, and collaborators who share our
+          We&apos;re looking for partners, funders, and collaborators who share our
           vision for civic technology that serves the commons.
         </motion.p>
         <motion.div

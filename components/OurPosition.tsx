@@ -25,12 +25,12 @@ export default function OurPosition() {
             </p>
             <p className="text-dm-gray-3 text-lg leading-relaxed">
               Our work supports and tests emerging ideas from across Dark Matter
-              Labs' ecosystem, while staying attuned to the wider technological
+              Labs&apos; ecosystem, while staying attuned to the wider technological
               shifts shaping society — from AI and identity systems to planetary
               sensing and public trust infrastructures.
             </p>
             <p className="text-dm-gray-3 text-lg leading-relaxed">
-              We don't see technology as separate from our work on climate,
+              We don&apos;t see technology as separate from our work on climate,
               governance, or justice. We see it as a critical enabler and a
               terrain of struggle, for how futures are shaped, accessed, and
               governed.

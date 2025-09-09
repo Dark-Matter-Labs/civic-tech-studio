@@ -27,7 +27,7 @@ export default function LearningSection() {
       className="section-padding border-t border-gray bg-dm-dark-gray/40"
     >
       <div className="container-custom">
-        <h2 className="mb-6 md:mb-8">What We're Learning</h2>
+        <h2 className="mb-6 md:mb-8">What We&apos;re Learning</h2>
         <div className="divide-y divide-dm-gray-6">
           {learnings.map((item, index) => (
             <motion.div
