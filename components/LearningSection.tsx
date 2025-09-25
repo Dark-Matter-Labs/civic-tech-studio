@@ -14,9 +14,9 @@ const learnings = [
       "Traditional project and partnership structures collapse under the weight of uncertainty, especially when responsibilities are split across civic, public, and private actors. To sustain meaningful collaboration, we must design partnership models that allow distributed development without dissolving accountability.",
   },
   {
-    title: "Modular, interoperable civic tech infrastructure",
+    title: "Shared civic tech infrastructure for interoperability and learning",
     description:
-      "Monolithic systems concentrate control and become brittle. Modular development enables flexibility, reuse, and collaborative evolution across contexts. But modularity isn't just a technical principle—it's a governance principle.",
+      "Interoperability is not just a technical feature but a civic commitment. Shared infrastructures allow tools and practices to circulate across contexts, turning individual projects into repositories of collective learning and public value",
   },
 ];
 
