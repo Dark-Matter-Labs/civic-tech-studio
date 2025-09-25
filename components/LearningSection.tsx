@@ -16,7 +16,7 @@ const learnings = [
   {
     title: "Shared civic tech infrastructure for interoperability and learning",
     description:
-      "Interoperability is not just a technical feature but a civic commitment. Shared infrastructures allow tools and practices to circulate across contexts, turning individual projects into repositories of collective learning and public value",
+      "Interoperability is not just a technical feature but a civic commitment. Shared infrastructures allow tools and practices to circulate across contexts, turning individual projects into repositories of collective learning.",
   },
 ];
 
