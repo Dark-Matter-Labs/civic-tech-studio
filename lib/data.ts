@@ -34,7 +34,7 @@ export const projects = [
   {
     title: "Cornerstone OS",
     description: "Framework for evaluating holistic, non-linear outcomes",
-    status: "concept",
+    status: "beta",
     link: "https://toolkit.cornerstoneindicators.com/",
   },
 ];
