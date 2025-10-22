@@ -7,6 +7,12 @@ export default function Footer() {
         <p className="text-[#A8A8A8]">Dark Matter Labs</p>
         <div className="flex gap-6">
           <a
+            href="https://github.com/Dark-Matter-Labs"
+            className="text-[#A8A8A8] hover:text-[#EBEBEB] transition-colors"
+          >
+            GitHub
+          </a>
+          <a
             href="https://www.instagram.com/darkmatter_labs/"
             className="text-[#A8A8A8] hover:text-[#EBEBEB] transition-colors"
           >
