@@ -10,7 +10,7 @@ export const projects = [
     title: "Permissioning Engine",
     description: "Community-driven flexible permissions for urban spaces",
     status: "beta",
-    link: "https://engine.permissioning.city/",
+    link: "https://www.permissioning.city/",
   },
   {
     title: "Location Based Scoring",
@@ -23,7 +23,7 @@ export const projects = [
     description:
       "Platform for logging and sharing building material and performance data",
     status: "demo",
-    link: "https://matreg.vercel.app/",
+    link: "https://darkmatterlabs.org/initiatives/matr",
   },
   {
     title: "Living Stewardship Agreement",
