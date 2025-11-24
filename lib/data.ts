@@ -7,6 +7,13 @@ export const projects = [
     link: "https://circulaw.nl",
   },
   {
+    title: "The Planetary Compendium",
+    description:
+      "Immersive case studies on planetary governance",
+    status: "launched",
+    link: "https://governtheplanet.org/",
+  },
+  {
     title: "Permissioning Engine",
     description: "Community-driven flexible permissions for urban spaces",
     status: "beta",
