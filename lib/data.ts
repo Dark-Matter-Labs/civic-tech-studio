@@ -14,6 +14,13 @@ export const projects = [
     link: "https://governtheplanet.org/",
   },
   {
+    title: "Many-to-Many System",
+    description:
+      "Governance and tools for systems change",
+    status: "launched",
+    link: "https://www.manytomany.systems/",
+  },
+  {
     title: "Permissioning Engine",
     description: "Community-driven flexible permissions for urban spaces",
     status: "beta",
