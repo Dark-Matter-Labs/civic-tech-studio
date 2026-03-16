@@ -49,7 +49,13 @@ export const projects = [
     title: "Cornerstone OS",
     description: "Framework for evaluating holistic, non-linear outcomes",
     status: "beta",
-    link: "https://toolkit.cornerstoneindicators.com/",
+    link: "https://cornerstone-indicators.gitbook.io/ci-process/",
+  },
+  {
+    title: "RiskSense",
+    description: "A portfolio of citizen-led anticipatory resilience tools",
+    status: "beta",
+    link: "https://risk.darkmatterlabs.org/",
   },
 ];
 
